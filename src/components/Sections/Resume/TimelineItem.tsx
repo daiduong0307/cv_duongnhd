@@ -1,7 +1,7 @@
+import Image from 'next/image';
 import {FC, memo} from 'react';
 
 import {TimelineItem} from '../../../data/dataDef';
-import Image from 'next/image';
 
 const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
   const {

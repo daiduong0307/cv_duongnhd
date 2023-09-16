@@ -8,11 +8,12 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import FacebookIcon from '../components/Icon/FacebookIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import FacebookIcon from '../components/Icon/FacebookIcon';
 import heroImage from '../images/header-background.png';
+import firstPrizeImage from '../images/portfolio/firstPrizeImage.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -24,13 +25,11 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import top3outStandingImage from '../images/portfolio/top3outStandingImage.jpg';
 import productManagerImage from '../images/portfolio/productManagerImage.png';
-import firstPrizeImage from '../images/portfolio/firstPrizeImage.jpg';
 import scrumMasterImage from '../images/portfolio/scrumMasterImage.png';
+import top3outStandingImage from '../images/portfolio/top3outStandingImage.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
-
 import {
   About,
   ContactSection,
