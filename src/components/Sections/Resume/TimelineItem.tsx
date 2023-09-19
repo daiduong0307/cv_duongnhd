@@ -38,17 +38,17 @@ const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
 
       </div>
       <div className="flex flex-col ">
-        <span className="font-bold">{objective}</span>
-        <span>{content}</span>
+        <span className="font-bold ">{objective}</span>
+        <span className='text-start'>{content}</span>
         <span className="font-bold">{responsibility}</span>
-        <span>{response_content_1 ? '* ' + response_content_1 : ''}</span>
-        <span>{response_content_2 ? '* ' + response_content_2 : ''}</span>
-        <span>{response_content_3 ? '* ' + response_content_3 : ''}</span>
-        <span>{response_content_4 ? '* ' + response_content_4 : ''}</span>
-        <span>{response_content_5 ? '* ' + response_content_5 : ''}</span>
-        <span>{response_content_6 ? '* ' + response_content_6 : ''}</span>
-        <span>{response_content_7 ? '* ' + response_content_7 : ''}</span>
-        <span>{response_content_8 ? '* ' + response_content_8 : ''}</span>
+        <span className='text-start'>{response_content_1 ? '* ' + response_content_1 : ''}</span>
+        <span className='text-start'>{response_content_2 ? '* ' + response_content_2 : ''}</span>
+        <span className='text-start'>{response_content_3 ? '* ' + response_content_3 : ''}</span>
+        <span className='text-start'>{response_content_4 ? '* ' + response_content_4 : ''}</span>
+        <span className='text-start'>{response_content_5 ? '* ' + response_content_5 : ''}</span>
+        <span className='text-start'>{response_content_6 ? '* ' + response_content_6 : ''}</span>
+        <span className='text-start'>{response_content_7 ? '* ' + response_content_7 : ''}</span>
+        <span className='text-start'>{response_content_8 ? '* ' + response_content_8 : ''}</span>
         <span className="font-bold">{technology}</span>
         <span>{technology_content}</span>
       </div>

@@ -76,7 +76,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Front-end Developer</strong>, currently working at{' '}
-        <strong className="text-stone-100">FPT software</strong> in <strong> Ha Noi, Viet Nam</strong> .
+        <strong className="text-stone-100">FPT software</strong> in <strong> Ha Noi, Vietnam</strong> .
       </p>
     </>
   ),
@@ -260,8 +260,8 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'graduated - may 2022',
-    location: 'Viet Nam',
+    date: 'Graduated - may 2022',
+    location: 'Vietnam',
     title: 'Bachelor in Greenwich University',
     content: <p>Outstanding student - <strong> First Class Honors </strong> of Information and Technology</p>,    
   },
@@ -270,24 +270,24 @@ export const education: TimelineItem[] = [
 export const Award: TimelineItem[] = [
   {
     date: '2019',
-    location: 'Viet Nam',
-    title: 'Top 3 outstanding achievement  student semester in University of Greenwich Viet Nam',
+    location: 'Vietnam',
+    title: 'Top 3 outstanding achievement  student semester in University of Greenwich Vietnam',
     image: top3outStandingImage   
   },
   {
     date: '2020',
-    location: 'Viet Nam',
+    location: 'Vietnam',
     title: 'Ambassador of Facebook & Coderschool',   
   },
   {
     date: '2020',
-    location: 'sponsor By Facebook & Coderschool ',
+    location: 'Sponsor by Facebook & Coderschool ',
     title: '  First Prize Champion Challenge of Tripi in DevC Innovation Challenge Competition',
     image: firstPrizeImage    
   },
   {
     date: 'June 2020 - September 2020',
-    location: 'Viet Nam',
+    location: 'Vietnam',
     title: 'CoderSchool & Facebook certificates',
     content: <p>With Product Management role -
     Collaboration with other
@@ -297,7 +297,7 @@ export const Award: TimelineItem[] = [
   },
   {
     date: '2023',
-    location: 'Viet Nam',
+    location: 'Vietnam',
     title: 'Professional Scrum Master I Certificate',   
     image: scrumMasterImage
   },
